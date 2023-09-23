@@ -38,123 +38,6 @@
     <div id="wrapper">
         <!-- Header Section Begin -->
         <header class="header-section mt-2">
-            {{-- <div class="header-top">
-                <div class="container">
-                    <div class="ht-left">
-                        <div class="mail-service">
-                            <i class="fa fa-envelope"></i>
-                            chuongnguyendoanthanh@gmail.com
-                        </div>
-                        <div class="phone-service">
-                            <i class="fa fa-phone"></i>
-                            +84 7777 05346
-                        </div>
-                    </div>
-    
-                    <div class="ht-right">
-                        <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
-                        <div class="lan-selector">
-                            <select class="language_drop" name="countries" id="countries" style="width: 300px;">
-                                <option value='yt' data-image="front/img/flag-1.jpg" data-imagecss="flag yt"
-                                    data-title="English">English</option>
-                                <option value='yu' data-image="front/img/flag-2.jpg" data-imagecss="flag yu"
-                                    data-title="Bangladesh">German</option>
-                            </select>
-                        </div>
-    
-                        <div class="top-social">
-                            <a href="#"><i class="ti-facebook"></i></a>
-                            <a href="#"><i class="ti-twitter-alt"></i></a>
-                            <a href="#"><i class="ti-linkedin"></i></a>
-                            <a href="#"><i class="ti-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
-
-            {{-- <div class="container">
-                <div class="inner-header">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-2">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="front/img/logo.png" height="25" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-7">
-                            <div class="advanced-search">
-                                <button type="button" class="category-btn">All Categories</button>
-                                <div class="input-group">
-                                    <input type="text" placeholder="What do you need?">
-                                    <button type="button"><i class="ti-search"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 text-right">
-                            <ul class="nav-right">
-                                <li class="heart-icon">
-                                    <a href="#">
-                                        <i class="icon_heart_alt"></i>
-                                        <span>1</span>
-                                    </a>
-                                </li>
-                                <li class="cart-icon">
-                                    <a href="#">
-                                        <i class="icon_bag_alt"></i>
-                                        <span>3</span>
-                                    </a>
-                                    <div class="cart-hover">
-                                        <div class="select-items">
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="si-pic"><img src="front/img/select-product-1.jpg"></td>
-                                                        <td class="si-text">
-                                                            <div class="product-selected">
-                                                                <p>$60.00 x 1</p>
-                                                                <h6>Kabino Bedside Table</h6>
-                                                            </div>
-                                                        </td>
-                                                        <td class="si">
-                                                            <i class="ti-close">
-    
-                                                            </i>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="si-pic"><img src="front/img/select-product-2.jpg"></td>
-                                                        <td class="si-text">
-                                                            <div class="product-selected">
-                                                                <p>$60.00 x 1</p>
-                                                                <h6>Kabino Bedside Table</h6>
-                                                            </div>
-                                                        </td>
-                                                        <td class="si">
-                                                            <i class="ti-close">
-    
-                                                            </i>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="select-total">
-                                            <span>total:</span>
-                                            <h5>$120.00</h5>
-                                        </div>
-                                        <div class="select-button">
-                                            <a href="shopping-cart.html" class="primary-btn view-card">VIEW CARD</a>
-                                            <a href="check-out.html" class="primary-btn checkout-btn">CHECK OUT</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="cart-price">$150.00</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
             <div class="container container-logo">
                 <div class="burger-icon" id="burger">
                     <svg class="ularge icon open">
@@ -164,7 +47,7 @@
                         <use xlink:href="#close-icon"></use>
                     </svg>
                 </div>
-               
+
                 <div class="social-group-icon">
                     <a href="#" class="button social-icon facebook" target="_blank" aria-label="Facebook"
                         rel="nofollow noopener"><i class="fa fa-facebook"></i></a>
@@ -189,161 +72,11 @@
 
             <nav class="container main-nav">
                 <ul id="menu-header" class="menu">
-                    <li class="menu-item"><a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Home
-                                    Posts
-                                    Slider</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Posts
-                                            Slider (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Posts
-                                            Slider (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Posts Carousel</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Posts
-                                            Carousel (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Posts
-                                            Carousel (Text mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-71"><a href="#">Home
-                                    Category Carousel</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Category
-                                            Carousel (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Category
-                                            Carousel (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-540"><a href="#">Home
-                                    Minimal</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Minimal
-                                            (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Minimal
-                                            (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Classic with Sidebar</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Classic
-                                            Sidebar (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Classic
-                                            Sidebar (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-68"><a href="#">Home
-                                    Masonry</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Masonry
-                                            (Image Mode)</a></li>
-                                    <li class="text-mode menu-item">
-                                        <a href="#">Masonry
-                                            (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-156"><a
-                                    href="#">Home
-                                    Grid with Sidebar</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a
-                                            href="#">Grid
-                                            Sidebar (Image Mode)</a></li>
-                                    <li class="text-mode menu-item">
-                                        <a
-                                            href="#">Grid
-                                            Sidebar (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Advertising Area</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a
-                                    href="#">Advertise
-                                    between posts</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-580"><a
-                                    href="#">AMP Home</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Header Styles</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Minimalist Style</a></li>
-                            <li class="menu-item"><a href="#">Classic Style</a></li>
-                            <li class="menu-item"><a href="#">Notice on Top</a></li>
-                            <li class="menu-item"><a href="#">Advertising Area</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Post Features</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Post Formats</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Standard</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Gallery</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Video</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Audio</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Fullwidth
-                                    with Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Fullwidth
-                                    no Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Classic
-                                    with Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Classic
-                                    no Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Post
-                                    Pagination</a></li>
-                            <li class="menu-item"><a href="#">AMP
-                                    Article</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#" data-cat-id="3">#Tag</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#" data-cat-id="3">Lifestyle</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="4">Music</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="6">Travel</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="5">Technology</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="/admin/">Author</a></li>
-                    <li class="menu-item"><a href="#">Features</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Style Guide</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Gutenberg
-                                    Blocks</a></li>
-                            <li class="menu-item"><a href="#">Buttons</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Accordions
-                                    and Tabs</a></li>
-                            <li class="menu-item"><a href="#">Columns</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Alert
-                                    Messages</a></li>
-                            <li class="menu-item"><a href="#">404</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Contact</a></li>
+                    @foreach ($categories as $category)
+                        <li class="menu-item">
+                            <a href="#">{{ $category['name'] }}</a>
+                        </li>
+                    @endforeach
                 </ul>
             </nav>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -425,7 +158,22 @@
             </svg>
         </header>
         <!-- Header Section End -->
-
+        <header class="sticky-nav">
+            <nav class="container main-nav">
+                <div class="logo ">
+                    <a href="#" class="title black no-margin">
+                        <span>Maktub</span>
+                    </a>
+                </div>
+                <ul id="menu-header" class="menu">
+                    @foreach ($categories as $category)
+                        <li class="menu-item">
+                            <a href="#">{{ $category['name'] }}</a>
+                        </li>
+                    @endforeach
+                </ul>
+            </nav>
+        </header>
 
         {{-- Body here --}}
         @yield('body')
