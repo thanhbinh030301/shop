@@ -4,516 +4,69 @@
 
 @section('body')
     <!-- -->
-    <!-- Hero Section Begin -->
-    <section class="hero-section">
-        <div class="hero-items owl-carousel">
-            <div class="single-hero-items set-bg" data-setbg="front/img/hero-1.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <span>Bag, kids</span>
-                            <h1>Black friday</h1>
-                            <p>content product</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+    <!--home begin -->
+    <div class="grid-container no-sidebar">
+        <div class="content row">
+            <!-- start: .epcl-page-wrapper -->
+            <div class="epcl-page-wrapper">
+              <!-- start: .content -->
+              <div class="left-content grid-70 np-mobile">
+                <article class="main-article primary-cat-3 post type-post status-publish format-standard has-post-thumbnail hentry">
+                  <header>
+                    <!-- start: .post-format-image -->
+                    <div class="post-format-image ">
+                      <div class="featured-image epcl-decoration-border">
+                        <div class="epcl-loader">
+                          <img width="950" height="500" src="http://booklover.vn/wp-content/uploads/2019/07/mixkit-woman-in-the-summertime-43-desktop-wallpaper-950x500.jpg" class="fullwidth wp-post-image" alt="" decoding="async" data-lazy="false" fetchpriority="high">
                         </div>
+                      </div>
                     </div>
-                    <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
+                    <!-- end: .post-format-image -->
+                    <div class="clear"></div>
+                    <div class="info">
+                      <h1 class="main-title textcenter">SÁCH THEO CHỦ ĐỀ</h1>
+                      <!-- start: .meta -->
+                      <div class="meta">
+                        <p class="meta-info" datetime="2023-09-21">September 21, 2023 
+                          <img src="/front/img/fire-solid.svg" alt="">
+                          10
+                        </p>
+                      </div>
+                      <!-- end: .meta -->
                     </div>
-                </div>
+                  </header>
+                  <section class="post-content">
+                    <div class="text">
+                      <h1 class="">
+                        <a href="#">Top 10 cuốn sách hay giúp thay đổi cuộc đời bạn</a>
+                      </h1>
+                      <p>Từ xưa đến nay, <a href="#">
+                          <strong>sách hay</strong>
+                        </a>luôn được biết đến như là một kho tàng kiến thức quý báu của nhân loại. Mỗi một quyển sách đều mang đến cho chúng ta những giá trị nhất định về tư duy trong công việc, về thái độ sống, …. Nếu bạn đang tìm kiếm những cuốn sách hay giúp thay đổi cuộc đời, thì đừng bỏ qua bài viết dưới đây của chúng tôi nhé! <br>
+                        <br>Dưới đây là <a href="#">
+                          <strong>top 10 cuốn sách hay nhất mà bạn nên đọc</strong>
+                        </a>, chúng chắc chắn sẽ giúp bạn thay đổi tư duy và cách nhìn về cuộc sống của mình.
+                      </p>
+                      <h2 class="">1.Đắc Nhân Tâm - Dale Carnegie</h2>
+                      <p>
+                        <a href="">
+                          <strong>Đắc Nhân Tâm của tác giả Dale Carnegie</strong>
+                        </a>được mệnh danh là một trong những <strong>quyển sách hay nhất</strong>, <strong>bán chạy nhấ</strong>t và có tầm ảnh hưởng nhất mọi thời đại. Đây thực sự là một cuốn sách tuyệt với mang lại nhiều giá trị cho người đọc về nghệ thuật thu phục lòng người khiến cho những người xung quanh phải khâm phục và yêu mến mình.
+                      </p>
+                      <p>Nội dung xuyên suốt quyển sách là những bài học thực tế về cách cư xử, thái độ cũng như kỹ năng giao tiếp để có thể phát triển bản thân lên một taamf cao mới. Cuốn sách này phù hợp với tất cả mọi lứa tuổi, bạn đừng bỏ qua <strong> <a href="">Đắc Nhân Tâm</a>
+                        </strong>để biết sống tử tế hơn giúp cuộc đời có ý nghĩa hơn nhé. </p>
+                    </div>
+                    <div class="clear"></div>
+                  </section>
+                </article>
+                <div class="clear"></div>
+                <div class="clear"></div>
+              </div>
+              <!-- end: .content -->
             </div>
-            <div class="single-hero-items set-bg" data-setbg="front/img/hero-2.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <span>Bag, kids</span>
-                            <h1>Black friday</h1>
-                            <p>content product</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
-                        </div>
-                    </div>
-                    <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-
-
-    <!-- Banner Section Begin -->
-    <div class="banner-section spad">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="single-banner">
-                        <img src="front/img/banner-1.jpg" alt="">
-                        <div class="inner-text">
-                            <h4>Men's</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-banner">
-                        <img src="front/img/banner-2.jpg" alt="">
-                        <div class="inner-text">
-                            <h4>Women's</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-banner">
-                        <img src="front/img/banner-3.jpg" alt="">
-                        <div class="inner-text">
-                            <h4>Kid's</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <!-- end: .center -->
+          </div>
     </div>
-    <!-- Banner Section Begin -->
 
-
-    <!-- Women Banner Section Begin -->
-    <div class="banner-section spad">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="product-large set-bg" data-setbg="front/img/products/women-large.jpg">
-                        <h2>Women's</h2>
-                        <a href="#">Discover More</a>
-                    </div>
-                </div>
-                <div class="col-lg-8 offset-lg-1">
-                    <div class="filter-control">
-                        <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
-                            <li>Shoes</li>
-                            <li>Accessories</li>
-                        </ul>
-                    </div>
-                    <div class="product-slider owl-carousel">
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/women-1.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/women-2.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $12.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/women-3.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/women-4.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Women Banner Section End -->
-
-
-    <!-- Deal Of The Week Section Begin -->
-    <section class="deal-of-week set-bg spad" data-setbg="front/img/time-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center">
-                    <div class="section-title">
-                        <h2>Deal Of The Week</h2>
-                        <p>Content deal of the week</p>
-                        <div class="product-price">
-                            $35.00
-                            <span>/ HandBag</span>
-                        </div>
-                    </div>
-                    <div class="countdown-timer" id="countdown">
-                        <div class="cd-item">
-                            <span>56</span>
-                            <p>Days</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>12</span>
-                            <p>Hours</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>40</span>
-                            <p>Mins</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>52</span>
-                            <p>Seconds</p>
-                        </div>
-                    </div>
-                    <a href="" class="primary-btn">Shop Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Deal Of The Week Section End -->
-
-
-    <!-- Man Banner Section Begin -->
-    <div class="banner-section spad">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="filter-control">
-                        <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
-                            <li>Shoes</li>
-                            <li>Accessories</li>
-                        </ul>
-                    </div>
-                    <div class="product-slider owl-carousel">
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/man-1.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href=""><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href=""><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/man-2.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href=""><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href=""><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $12.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/man-3.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href=""><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href=""><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="front/img/products/man-4.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href=""><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
-                                    <li class="w-icon"><a href=""><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="category-name">Coat</div>
-                                <a href="">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1">
-                    <div class="product-large set-bg" data-setbg="front/img/products/man-large.jpg">
-                        <h2>Man's</h2>
-                        <a href="#">Discover More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Man Banner Section End -->
-
-
-    <!-- Instagram Section Begin -->
-    <div class="instagram-photo">
-        <div class="insta-item set-bg" data-setbg="front/img/insta-1.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="front/img/insta-2.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="front/img/insta-3.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="front/img/insta-4.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="front/img/insta-5.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="front/img/insta-6.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">CodeLean_Collection</a></h5>
-            </div>
-        </div>
-    </div>
-    <!-- Instagram Section End -->
-
-
-    <!-- Lastest Blog Section Begin -->
-    <section class="latest-blog spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>From The Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="front/img/latest-1.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2022
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="">
-                                <h4>The Best Street Style From London codelenon Week</h4>
-                            </a>
-                            <p>An ally has been defeated</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="front/img/latest-2.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2022
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="">
-                                <h4>Vogue's Ultimate Guide To Autumn/Winter 2022 Shoes</h4>
-                            </a>
-                            <p>An ally has been defeated</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="front/img/latest-3.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2022
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="">
-                                <h4>How To Brighten Your Wardrobe With A Dash Of Lime</h4>
-                            </a>
-                            <p>An ally has been defeated</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="benefit-items">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="front/img/icon-1.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Free Shipping</h6>
-                                <p>For all order over 99$</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="front/img/icon-2.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Delivery On Time</h6>
-                                <p>If goods have problems</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="front/img/icon-3.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Secure Payment</h6>
-                                <p>100% secure payment</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Lastest Blog Section End -->
-
+    <!--home end -->
 @endsection

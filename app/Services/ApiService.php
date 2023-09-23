@@ -30,4 +30,11 @@ class ApiService
 
         return $result;
     }
+
+    public function getListNews($requestData)
+    {
+        $response = Http::post('http://api.unibook.one/005', $requestData);
+        // dd($response->json());
+        return $response->json();
+    }
 }
