@@ -14,7 +14,7 @@ class BlogApi
         $this->apiService = $apiService;
     }
 
-    public function getCategories()
+    public function getNavigation()
     {
         $url = $this->apiService->getUrl('/001');
         $response = Http::post($url);

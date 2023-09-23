@@ -13,7 +13,7 @@ class BlogController extends Controller
     }
     public function index()
     {
-        $category = $this->blogApi->getCategories();
+        $category = $this->blogApi->getNavigation();
         return view('front.index');
     }
 }

@@ -15,7 +15,7 @@ class LayoutComposer
      */
     public function __construct(BlogApi $blogApi)
     {
-        $this->categories = $blogApi->getCategories();
+        $this->categories = $blogApi->getNavigation();
     }
 
     /**
