@@ -47,7 +47,7 @@
                         <use xlink:href="#close-icon"></use>
                     </svg>
                 </div>
-               
+
                 <div class="social-group-icon">
                     <a href="#" class="button social-icon facebook" target="_blank" aria-label="Facebook"
                         rel="nofollow noopener"><i class="fa fa-facebook"></i></a>
@@ -72,161 +72,11 @@
 
             <nav class="container main-nav">
                 <ul id="menu-header" class="menu">
-                    <li class="menu-item"><a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Home
-                                    Posts
-                                    Slider</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Posts
-                                            Slider (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Posts
-                                            Slider (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Posts Carousel</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Posts
-                                            Carousel (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Posts
-                                            Carousel (Text mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-71"><a href="#">Home
-                                    Category Carousel</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Category
-                                            Carousel (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Category
-                                            Carousel (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-540"><a href="#">Home
-                                    Minimal</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Minimal
-                                            (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Minimal
-                                            (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Classic with Sidebar</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Classic
-                                            Sidebar (Image Mode)</a></li>
-                                    <li class="menu-item">
-                                        <a href="#">Classic
-                                            Sidebar (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-68"><a href="#">Home
-                                    Masonry</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Masonry
-                                            (Image Mode)</a></li>
-                                    <li class="text-mode menu-item">
-                                        <a href="#">Masonry
-                                            (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-156"><a
-                                    href="#">Home
-                                    Grid with Sidebar</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a
-                                            href="#">Grid
-                                            Sidebar (Image Mode)</a></li>
-                                    <li class="text-mode menu-item">
-                                        <a
-                                            href="#">Grid
-                                            Sidebar (Text Mode)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Home
-                                    Advertising Area</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a
-                                    href="#">Advertise
-                                    between posts</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-580"><a
-                                    href="#">AMP Home</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Header Styles</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Minimalist Style</a></li>
-                            <li class="menu-item"><a href="#">Classic Style</a></li>
-                            <li class="menu-item"><a href="#">Notice on Top</a></li>
-                            <li class="menu-item"><a href="#">Advertising Area</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Post Features</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Post Formats</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="#">Standard</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Gallery</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Video</a>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Audio</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#">Fullwidth
-                                    with Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Fullwidth
-                                    no Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Classic
-                                    with Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Classic
-                                    no Sidebar</a></li>
-                            <li class="menu-item"><a href="#">Post
-                                    Pagination</a></li>
-                            <li class="menu-item"><a href="#">AMP
-                                    Article</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#" data-cat-id="3">#Tag</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#" data-cat-id="3">Lifestyle</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="4">Music</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="6">Travel</a></li>
-                            <li class="menu-item"><a href="#" data-cat-id="5">Technology</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="/admin/">Author</a></li>
-                    <li class="menu-item"><a href="#">Features</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Style Guide</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Gutenberg
-                                    Blocks</a></li>
-                            <li class="menu-item"><a href="#">Buttons</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Accordions
-                                    and Tabs</a></li>
-                            <li class="menu-item"><a href="#">Columns</a>
-                            </li>
-                            <li class="menu-item"><a href="#">Alert
-                                    Messages</a></li>
-                            <li class="menu-item"><a href="#">404</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Contact</a></li>
+                    @foreach ($categories as $category)
+                        <li class="menu-item">
+                            <a href="#">{{ $category['name'] }}</a>
+                        </li>
+                    @endforeach
                 </ul>
             </nav>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -308,7 +158,22 @@
             </svg>
         </header>
         <!-- Header Section End -->
-
+        <header class="sticky-nav">
+            <nav class="container main-nav">
+                <div class="logo ">
+                    <a href="#" class="title black no-margin">
+                        <span>Maktub</span>
+                    </a>
+                </div>
+                <ul id="menu-header" class="menu">
+                    @foreach ($categories as $category)
+                        <li class="menu-item">
+                            <a href="#">{{ $category['name'] }}</a>
+                        </li>
+                    @endforeach
+                </ul>
+            </nav>
+        </header>
 
         {{-- Body here --}}
         @yield('body')
