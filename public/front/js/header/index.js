@@ -16,8 +16,20 @@ function closeMenu() {
     $(".mobile-nav").removeClass("mobile-nav").addClass("main-nav");
 }
 function openMenu() {
-    console.log('openMenu');
     $("body").addClass("menu-open");
     $(".main-nav").insertBefore($("#wrapper"));
     $(".main-nav").removeClass("main-nav").addClass("mobile-nav");
 }
+$(document).ready(function () {
+    $(document).on('scroll', function () {
+        if ($(this).scrollTop() > $('.header-section').innerHeight()) {
+            $('.sticky-nav').css({
+                transform: 'translate(-50%, 0%)'
+            })
+        } else {
+            $('.sticky-nav').css({
+                transform: 'translate(-50%, -100%)'
+            })
+        }
+    })
+})
