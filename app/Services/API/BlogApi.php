@@ -16,7 +16,7 @@ class BlogApi
 
     public function getCategories()
     {
-        $url = $this->apiService->getUrl('/002');
+        $url = $this->apiService->getUrl('/001');
         $response = Http::post($url);
         if ($response->getStatusCode() == 200) {
             $content = $response->getBody()->getContents();
