@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +19,5 @@ use App\Http\Controllers\HomeController;
 // });
 
 
-Route::get('/', [HomeController::class, 'getListHome']);
-Route::get('/', [BlogController::class, 'index']);
+Route::get('/', [BlogController::class, 'index'])->name('home');
+Route::get('/{slug}', [BlogController::class, 'detailFeature'])->name('detail_feature');

@@ -59,7 +59,7 @@
                         rel="nofollow noopener"><i class="fa fa-rss"></i></a>
                 </div>
                 <div class="logo">
-                    <a href="#" class="title ularge black no-margin">
+                    <a href="{{ route('home') }}" class="title ularge black no-margin">
                         <span>Maktub</span>
                     </a>
                 </div>
@@ -72,9 +72,9 @@
 
             <nav class="container main-nav">
                 <ul id="menu-header" class="menu">
-                    @foreach ($categories as $category)
+                    @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $category['name'] }}</a>
+                            <a href="#">{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
@@ -161,14 +161,14 @@
         <header class="sticky-nav">
             <nav class="container main-nav">
                 <div class="logo ">
-                    <a href="#" class="title black no-margin">
+                    <a href="{{ route('home') }}" class="title black no-margin">
                         <span>Maktub</span>
                     </a>
                 </div>
                 <ul id="menu-header" class="menu">
-                    @foreach ($categories as $category)
+                    @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $category['name'] }}</a>
+                            <a href="#">{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>

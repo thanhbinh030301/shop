@@ -24,7 +24,10 @@ class ComposerServiceProvider extends ServiceProvider
     public function boot()
     {
         view()->composer(
-            ['front.layout.master'],
+            [
+                'front.layout.master',
+                'front.index',
+            ],
             'App\Http\ViewComposers\LayoutComposer'
         );
     }

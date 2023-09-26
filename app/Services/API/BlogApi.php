@@ -25,4 +25,17 @@ class BlogApi
 
         return $result['data'];
     }
+
+    public function getCategory()
+    {
+        $url = $this->apiService->getUrl('/005');
+        $response = Http::post($url);
+        if ($response->getStatusCode() == 200) {
+            $content = $response->getBody()->getContents();
+            $result = json_decode($content, true);
+        }
+        // dd($result['data']);
+
+        return $result['data'];
+    }
 }
