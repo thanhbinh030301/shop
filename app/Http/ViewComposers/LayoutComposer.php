@@ -7,7 +7,8 @@ use Illuminate\View\View;
 class LayoutComposer
 {
     private $blogApi;
-    private $categories;
+    private $nav;
+    private $category;
     /**
      * Create a movie composer.
      *
@@ -15,7 +16,8 @@ class LayoutComposer
      */
     public function __construct(BlogApi $blogApi)
     {
-        $this->categories = $blogApi->getNavigation();
+        $this->nav = $blogApi->getNavigation();
+        $this->category = $blogApi->getCategory();
     }
 
     /**
@@ -26,6 +28,9 @@ class LayoutComposer
      */
     public function compose(View $view)
     {
-        $view->with('categories', $this->categories);
+        $view->with([
+            'category' => $this->category,
+            'nav' => $this->nav,
+        ]);
     }
 }
