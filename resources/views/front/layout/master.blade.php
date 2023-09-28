@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <nav class="container main-nav">
+            <nav class="container main-nav nav-open">
                 <ul id="menu-header" class="menu">
                     @foreach ($nav as $item)
                         <li class="menu-item">
