@@ -25,7 +25,7 @@
                         </div>
                         <!-- end: .post-format-image -->
                         <div class="info">
-                          <h1 class="main-title textcenter">SÁCH THEO CHỦ ĐỀ</h1>
+                          <h1 class="main-title text-center">SÁCH THEO CHỦ ĐỀ</h1>
                           <!-- start: .meta -->
                           <div class="meta">
                             <p class="meta-info" datetime="2023-09-21">September 21, 2023 
