@@ -17,8 +17,8 @@ function closeMenu() {
 }
 function openMenu() {
     $("body").addClass("menu-open");
-    $(".main-nav").insertBefore($("#wrapper"));
-    $(".main-nav").removeClass("main-nav").addClass("mobile-nav");
+    $(".nav-open").insertBefore($("#wrapper"));
+    $(".nav-open").removeClass("main-nav").addClass("mobile-nav");
 }
 $(document).ready(function () {
     $(document).on('scroll', function () {

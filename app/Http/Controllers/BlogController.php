@@ -11,9 +11,19 @@ class BlogController extends Controller
     {
         $this->blogApi = $blogApi;
     }
+
     public function index()
     {
-        $category = $this->blogApi->getNavigation();
         return view('front.index');
+    }
+
+    public function detailFeature ()
+    {
+        $isDetail = false;
+        $category = $this->blogApi->getCategory();
+        if ($category['type'] == 'NEWS') {
+            $isDetail = true;
+        }
+        return view('front.detail', compact('category', 'isDetail'));
     }
 }

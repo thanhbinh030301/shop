@@ -1,6 +1,6 @@
 @extends('front.layout.master')
 
-@section('title', 'Home')
+@section('title', 'Detail')
 
 @section('body')
     <!-- -->
@@ -10,29 +10,22 @@
             <!-- start: .epcl-page-wrapper -->
             <div class="epcl-page-wrapper">
               <!-- start: .content -->
-              <div class="center left-content">
-                <article class="main-article">
+              <div class="left-content grid-70 np-mobile">
+                <article class="main-article primary-cat-3 post type-post status-publish format-standard has-post-thumbnail hentry">
                   {{-- @dd($category['content']['0']['slug']); --}}
-                  @if ($category && $category['type'] == 'DIVISION')
-                    @foreach($category['content'] as $item)
                       <header>
                         <!-- start: .post-format-image -->
-                        <div class="post-format-image post-style-standard-image">
-                          <div class="featured-image epcl-flexr">
-                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}" class="thumb translate-effect loaded" target="_blank">
-                              {{-- @if ($item)
-                                <img width="950" height="500" src="env('APP_URL')/{{ $item['image'] }}" class="fullwidth">
-                              @else --}}
+                        <div class="post-format-image">
+                          <div class="featured-image epcl-decoration-border">
+                            <div class="epcl-loader">
+                                {{-- <img width="950" height="500" src="env('API_BASE_URL')/{{ $item['image'] }}" class="fullwidth"> --}}
                                 <img width="950" height="500" src="http://booklover.vn/wp-content/uploads/2019/07/mixkit-woman-in-the-summertime-43-desktop-wallpaper-950x500.jpg" class="fullwidth" alt="">
-                              {{-- @endif --}}
-                            </a>
+                            </div>
                           </div>
                         </div>
                         <!-- end: .post-format-image -->
                         <div class="info">
-                          <h1 class="main-title textcenter">
-                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}" target="_blank">SÁCH THEO CHỦ ĐỀ</a>
-                          </h1>
+                          <h1 class="main-title textcenter">SÁCH THEO CHỦ ĐỀ</h1>
                           <!-- start: .meta -->
                           <div class="meta">
                             <p class="meta-info" datetime="2023-09-21">September 21, 2023 
@@ -65,8 +58,6 @@
                             </strong>để biết sống tử tế hơn giúp cuộc đời có ý nghĩa hơn nhé. </p>
                         </div>
                       </section>
-                    @endforeach
-                  @endif
                 </article>
               </div>
               <!-- end: .content -->

@@ -59,7 +59,7 @@
                         rel="nofollow noopener"><i class="fa fa-rss"></i></a>
                 </div>
                 <div class="logo">
-                    <a href="#" class="title ularge black no-margin">
+                    <a href="{{ route('home') }}" class="title ularge black no-margin">
                         <span>Maktub</span>
                     </a>
                 </div>
@@ -70,11 +70,11 @@
                 </div>
             </div>
 
-            <nav class="container main-nav">
+            <nav class="container main-nav nav-open">
                 <ul id="menu-header" class="menu">
-                    @foreach ($categories as $category)
+                    @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $category['name'] }}</a>
+                            <a href="#">{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
@@ -161,14 +161,14 @@
         <header class="sticky-nav">
             <nav class="container main-nav">
                 <div class="logo ">
-                    <a href="#" class="title black no-margin">
+                    <a href="{{ route('home') }}" class="title black no-margin">
                         <span>Maktub</span>
                     </a>
                 </div>
                 <ul id="menu-header" class="menu">
-                    @foreach ($categories as $category)
+                    @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $category['name'] }}</a>
+                            <a href="#">{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
@@ -178,42 +178,6 @@
         {{-- Body here --}}
         @yield('body')
 
-
-        <!-- Partner Logo Section Begin -->
-        <div class="partner-logo">
-            <div class="container">
-                <div class="logo-carousel owl-carousel">
-                    <div class="logo-item">
-                        <div class="tablecell-inner">
-                            <img src="front/img/logo-carousel/logo-1.png">
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="tablecell-inner">
-                            <img src="front/img/logo-carousel/logo-2.png">
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="tablecell-inner">
-                            <img src="front/img/logo-carousel/logo-3.png">
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="tablecell-inner">
-                            <img src="front/img/logo-carousel/logo-4.png">
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="tablecell-inner">
-                            <img src="front/img/logo-carousel/logo-5.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Partner Logo Section End -->
-
-
         <!-- Footer Section Begin -->
         <footer class="footer-section">
             <div class="container">
@@ -222,13 +186,13 @@
                         <div class="footer-left">
                             <div class="footer-logo">
                                 <a href="index.html">
-                                    <img src="front/img/footer-logo.png" height="25" alt="">
+                                    {{-- <img src="front/img/footer-logo.png" height="25" alt=""> --}}
                                 </a>
                             </div>
                             <ul>
                                 <li>xã Tân Hiệp, Hóc Môn</li>
                                 <li>Phone: +84 987654321</li>
-                                <li>Email: chuongnguyendoanthanh@gmail.com</li>
+                                <li>Email: shopchuong@gmail.com</li>
                             </ul>
                             <div class="footer-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
