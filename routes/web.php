@@ -14,10 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-// Route::get('/', function () {
-//     return view('front.index');
-// });
-
-
 Route::get('/', [BlogController::class, 'index'])->name('home');
 Route::get('/{slug}', [BlogController::class, 'detailFeature'])->name('detail_feature');
