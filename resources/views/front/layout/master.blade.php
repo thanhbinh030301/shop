@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Josefin+Sans%3A400%2C500%2C600%2C700%7CSource+Serif+Pro%3A400%2C400i%2C600%2C700%2C700i&subset=latin%2Clatin-ext&display=swap"
         rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="front/css/bootstrap.min.css" type="text/css">

@@ -23,7 +23,7 @@
                               {{-- @if ($item)
                                 <img width="950" height="500" src="env('APP_URL')/{{ $item['image'] }}" class="fullwidth">
                               @else --}}
-                                <img src="http://booklover.vn/wp-content/uploads/2019/07/mixkit-woman-in-the-summertime-43-desktop-wallpaper-950x500.jpg" alt="">
+                                <img src="/front/img/home-image.png" alt="">
                                 <span class="decoration"></span>
                               {{-- @endif --}}
                             </a>
