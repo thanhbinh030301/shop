@@ -27,8 +27,8 @@
                         </div>
                         <!-- end: .post-format-image -->
                         <div class="info">
-                          <h1 class="main-title text-center">
-                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}">SÁCH THEO CHỦ ĐỀ</a>
+                          <h1 class="main-title title text-center">
+                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}">{{ $item['title'] ?? '' }}</a>
                           </h1>
                           <!-- start: .meta -->
                           <div class="meta">
@@ -42,9 +42,6 @@
                       </header>
                       <section class="post-content">
                         <div class="text">
-                          <h1 class="">
-                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}">{{ $item['title'] ?? '' }}</a>
-                          </h1>
                           <p class="crop-long-text">
                             {{ $item['excerpt'] ?? ''}}
                           </p>

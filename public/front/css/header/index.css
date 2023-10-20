@@ -120,13 +120,17 @@
 }
 
 .title {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 40px;
   line-height: 1.45;
   letter-spacing: 0px;
   color: var(--title-color);
+}
+.title a {
+  font-size: 26px;
+  color: #0a0002;
 }
 
 .title.ularge {
