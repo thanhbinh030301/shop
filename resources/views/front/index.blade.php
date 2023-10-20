@@ -20,12 +20,8 @@
                         <div class="post-format-image post-style-standard-image">
                           <div class="featured-image epcl-flexr">
                             <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}" class="thumb translate-effect loaded">
-                              {{-- @if ($item)
-                                <img width="950" height="500" src="env('APP_URL')/{{ $item['image'] }}" class="fullwidth">
-                              @else --}}
-                                <img src="/front/img/home-image.png" alt="">
-                                <span class="decoration"></span>
-                              {{-- @endif --}}
+                              <img src="{{ $item['image'] ?? '' }}" class="fullwidth">
+                              <span class="decoration"></span>
                             </a>
                           </div>
                         </div>
@@ -36,7 +32,7 @@
                           </h1>
                           <!-- start: .meta -->
                           <div class="meta">
-                            <p class="meta-info" datetime="2023-09-21">September 21, 2023 
+                            <p class="meta-info" datetime="">{{ Illuminate\Support\Carbon::now()->toFormattedDateString() }}
                               <img src="/front/img/fire-solid.svg" alt="">
                               10
                             </p>
@@ -47,18 +43,13 @@
                       <section class="post-content">
                         <div class="text">
                           <h1 class="">
-                            <a href="#">Top 10 cuốn sách hay giúp thay đổi cuộc đời bạn</a>
+                            <a href="{{ route('detail_feature', ['slug' => $item['slug']]) }}">{{ $item['title'] ?? '' }}</a>
                           </h1>
-                          <p class="crop-long-text">Từ xưa đến nay sách hay
-                            luôn được biết đến như là một kho tàng kiến thức quý báu của nhân loại. Mỗi một
-                            quyển sách đều mang đến cho chúng ta những giá trị nhất định về tư duy trong
-                            công việc, về thái độ sống, …. Nếu bạn đang tìm kiếm những cuốn sách hay giúp
-                            thay đổi cuộc đời, thì đừng bỏ qua bài viết dưới đây của chúng tôi nhé!
-                            Dưới đây là top 10 cuốn sách hay nhất mà bạn nên đọc, chúng chắc chắn sẽ giúp 
-                            bạn thay đổi tư duy và cách nhìn về cuộc sống của mình.
-                        </p>
+                          <p class="crop-long-text">
+                            {{ $item['excerpt'] ?? ''}}
+                          </p>
                         </div>
-                      </section>  
+                      </section>
                     @endforeach
                   @endif
                 </article>

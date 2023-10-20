@@ -34,8 +34,30 @@ class BlogApi
             $content = $response->getBody()->getContents();
             $result = json_decode($content, true);
         }
-        // dd($result['data']);
-
         return $result['data'];
+    }
+
+    public function getDetail($slug)
+    {
+        $url = $this->apiService->getUrl('/005');;
+
+        $data = [
+            'slug' => $slug,
+        ];
+        $headers = [
+            'Content-Type: application/x-www-form-urlencoded',
+        ];
+
+        $response = Http::withHeaders($headers)->post($url, $data);
+        if ($response->successful()) {
+            $result = $response->json();
+            if (isset($result['data'])) {
+                return $result['data'];
+            } else {
+                return null;
+            }
+        } else {
+            return null;
+        }
     }
 }

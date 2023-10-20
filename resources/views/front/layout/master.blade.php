@@ -75,7 +75,7 @@
                 <ul id="menu-header" class="menu">
                     @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $item['name'] }}</a>
+                            <a href="/{{ $item['slug'] }}">{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
