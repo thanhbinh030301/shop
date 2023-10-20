@@ -17,7 +17,7 @@
                         <div class="post-format-image">
                           <div class="featured-image epcl-decoration-border">
                             <div class="epcl-loader">
-                                <img src="/{{ $details['image'] }}" class="fullwidth">
+                                <img src="{{ $details['image'] }}" class="fullwidth">
                             </div>
                           </div>
                         </div>

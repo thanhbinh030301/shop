@@ -16,16 +16,16 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="front/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="front/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="front/css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="front/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="front/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="front/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="front/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="front/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="front/css/style.css" type="text/css">
-    <link rel="stylesheet" href="front/css/header/index.css" type="text/css">
+    <link rel="stylesheet" href="/front/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/front/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/front/css/themify-icons.css">
+    <link rel="stylesheet" href="/front/css/elegant-icons.css">
+    <link rel="stylesheet" href="/front/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/front/css/nice-select.css">
+    <link rel="stylesheet" href="/front/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/front/css/slicknav.min.css">
+    <link rel="stylesheet" href="/front/css/style.css">
+    <link rel="stylesheet" href="/front/css/header/index.css">
 </head>
 
 <body>
@@ -76,7 +76,7 @@
                     <ul id="menu-header" class="menu">
                         @foreach ($nav as $item)
                             <li class="menu-item">
-                                <a href="/{{ $item['slug'] }}">{{ $item['name'] }}</a>
+                                <a href={{ route('category_list', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
                             </li>
                         @endforeach
                     </ul>
@@ -172,7 +172,7 @@
                 <ul id="menu-header" class="menu">
                     @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href="#">{{ $item['name'] }}</a>
+                            <a href={{ route('category_list', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
@@ -265,17 +265,17 @@
 
 
     <!-- Js Plugins -->
-    <script src="front/js/plugins/jquery-3.3.1.min.js"></script>
-    <script src="front/js/plugins/bootstrap.min.js"></script>
-    <script src="front/js/plugins/jquery-ui.min.js"></script>
-    <script src="front/js/plugins/jquery.countdown.min.js"></script>
-    <script src="front/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="front/js/plugins/jquery.zoom.min.js"></script>
-    <script src="front/js/plugins/jquery.dd.min.js"></script>
-    <script src="front/js/plugins/jquery.slicknav.js"></script>
-    <script src="front/js/plugins/owl.carousel.min.js"></script>
-    <script src="front/js/main.js"></script>
-    <script src="front/js/header/index.js"></script>
+    <script src="/front/js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="/front/js/plugins/bootstrap.min.js"></script>
+    <script src="/front/js/plugins/jquery-ui.min.js"></script>
+    <script src="/front/js/plugins/jquery.countdown.min.js"></script>
+    <script src="/front/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="/front/js/plugins/jquery.zoom.min.js"></script>
+    <script src="/front/js/plugins/jquery.dd.min.js"></script>
+    <script src="/front/js/plugins/jquery.slicknav.js"></script>
+    <script src="/front/js/plugins/owl.carousel.min.js"></script>
+    <script src="/front/js/main.js"></script>
+    <script src="/front/js/header/index.js"></script>
 </body>
 
 </html>
