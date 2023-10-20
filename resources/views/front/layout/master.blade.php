@@ -71,14 +71,17 @@
                 </div>
             </div>
 
-            <nav class="container main-nav nav-open">
-                <ul id="menu-header" class="menu">
-                    @foreach ($nav as $item)
-                        <li class="menu-item">
-                            <a href="/{{ $item['slug'] }}">{{ $item['name'] }}</a>
-                        </li>
-                    @endforeach
-                </ul>
+            <nav class="container main-nav nav-open grid-container">
+                <div class="row">
+                    <ul id="menu-header" class="menu">
+                        @foreach ($nav as $item)
+                            <li class="menu-item">
+                                <a href="/{{ $item['slug'] }}">{{ $item['name'] }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+                
             </nav>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 data-amp-original-style="display: none;" class="d-none">
