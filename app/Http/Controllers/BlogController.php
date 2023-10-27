@@ -21,24 +21,15 @@ class BlogController extends Controller
     public function detailFeature($slug)
     {
         $now = Carbon::now()->toFormattedDateString();
-        $isDetail = false;
         $data = $this->blogApi->getDetail($slug);
-        if ($data['type'] != 'NEWS') {
+        if ($data['type'] == 'NEWS') {
+            $details = $data['content'];
+            return view('front.detail', compact('details', 'now'));
+        } else if ($data['type'] == 'DIVISION') {
+            $categoryList = $data['content'];
+            return view('front.category', compact('categoryList', 'now'));
+        } else {
             abort(404);
         }
-        $details = $data['content'];
-        return view('front.detail', compact('details', 'now'));
-    }
-
-    public function categoryList($slug)
-    {
-        $now = Carbon::now()->toFormattedDateString();
-        $isDetail = false;
-        $data = $this->blogApi->getDetail($slug);
-        if ($data['type'] != 'DIVISION') {
-            abort(404);
-        }
-        $categoryList = $data['content'];
-        return view('front.categoryList', compact('categoryList', 'now'));
     }
 }

@@ -1,6 +1,6 @@
 @extends('front.layout.master')
 
-@section('title', 'Category List')
+@section('title', 'Category')
 
 @section('body')
     <!-- -->
