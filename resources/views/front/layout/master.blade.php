@@ -30,10 +30,6 @@
 
 <body>
     <!-- Start coding here -->
-    <!-- Page Preloader -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
     <div class="menu-overlay"></div>
 
     <div id="wrapper">
