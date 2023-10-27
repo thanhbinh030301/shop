@@ -16,4 +16,3 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [BlogController::class, 'index'])->name('home');
 Route::get('/{slug}', [BlogController::class, 'detailFeature'])->name('detail_feature');
-Route::get('/category/{slug}', [BlogController::class, 'categoryList'])->name('category_list');

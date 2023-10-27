@@ -70,9 +70,12 @@
             <nav class="container main-nav nav-open grid-container">
                 <div class="row">
                     <ul id="menu-header" class="menu">
+                        <li class="menu-item">
+                            <a href={{ route('home') }}>Home</a>
+                        </li>
                         @foreach ($nav as $item)
                             <li class="menu-item">
-                                <a href={{ route('category_list', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
+                                <a href={{ route('detail_feature', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
                             </li>
                         @endforeach
                     </ul>
@@ -167,7 +170,7 @@
                 <ul id="menu-header" class="menu">
                     @foreach ($nav as $item)
                         <li class="menu-item">
-                            <a href={{ route('category_list', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
+                            <a href={{ route('detail_feature', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
                         </li>
                     @endforeach
                 </ul>
