@@ -248,10 +248,7 @@
                                     document.write(new Date().getFullYear());
                                 </script> All rights reserved | This template is made with <i
                                     class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#"
-                                    target="_blank">CodeLean</a>
-                            </div>
-                            <div class="payment-pic">
-                                <img src="front/img/payment-method.png" alt="">
+                                    target="_blank">TeamChuong</a>
                             </div>
                         </div>
                     </div>
