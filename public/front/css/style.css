@@ -4206,6 +4206,9 @@ ol {
 /* Small Device: 320px */
 
 @media only screen and (max-width: 479px) {
+	.grid-container {
+		padding: 0 15px !important;
+	}
 	.instagram-photo .insta-item {
 		width: 100%;
 	}
