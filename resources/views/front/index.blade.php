@@ -7,14 +7,13 @@
     <!--home begin -->
     <div class="grid-container no-sidebar">
       <div class="content row">
-        @if ($category && $category['type'] == 'DIVISION' && $category['content'] != [])
+        @if ($categoryList && $categoryList['type'] == 'DIVISION' && $categoryList['content'] != [])
           <!-- start: .epcl-page-wrapper -->
           <div class="epcl-page-wrapper">
             <!-- start: .content -->
             <div class="center left-content">
               <article class="main-article">
-                {{-- @dd($category['content']['0']['slug']); --}}
-                  @foreach($category['content'] as $item)
+                  @foreach($categoryList['content'] as $item)
                     <header>
                       <!-- start: .post-format-image -->
                       <div class="post-format-image post-style-standard-image">
