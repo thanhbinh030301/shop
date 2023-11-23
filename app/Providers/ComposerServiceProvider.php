@@ -27,6 +27,7 @@ class ComposerServiceProvider extends ServiceProvider
             [
                 'front.layout.master',
                 'front.index',
+                'front.category'
             ],
             'App\Http\ViewComposers\LayoutComposer'
         );

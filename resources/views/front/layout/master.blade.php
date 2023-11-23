@@ -3,11 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="codelean Template">
-    <meta name="keywords" content="codelean, unica, creative, html">
+    @php
+        $descriptions = [];
+        $keywords = [];
+        $title = [];
+    @endphp
+
+    @forelse ($nav as $item)
+        @if ($item['meta_description'] ?? false)
+            @php $descriptions[] = $item['meta_description']; @endphp
+        @endif
+
+        @if ($item['meta_keyword'] ?? false)
+            @php $keywords[] = $item['meta_keyword']; @endphp
+        @endif
+
+        @if ($item['meta_title'] ?? false)
+            @php $title[] = $item['meta_title']; @endphp
+        @endif
+    @empty
+    @endforelse
+
+    @if (!empty($descriptions))
+        <meta name="description" content="{{ implode(', ', $descriptions) }}">
+    @endif
+
+    @if (!empty($keywords))
+        <meta name="keywords" content="{{ implode(', ', $keywords) }}">
+    @endif
+    @if (!empty($keywords))
+        <title>{{ implode(' ', $title) }}</title>
+    @endif
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title') | CodeGym</title>
+
 
     <!-- Google Font -->
     <link
@@ -75,12 +105,17 @@
                         </li>
                         @foreach ($nav as $item)
                             <li class="menu-item">
-                                <a href={{ route('detail_feature', ['slug' => $item['slug']]) }}>{{ $item['name'] }}</a>
+                                <a href={{ route('detail_feature', ['slug' => $item['slug']]) }} class="menu-link" data-image="{{ $item['image'] }}">{{ $item['name'] }}</a>
                             </li>
                         @endforeach
                     </ul>
                 </div>
             </nav>
+
+            <div class="container" id="feature-container" style="display: none;">
+                <img id="feature-image" src="" alt="">
+            </div>
+
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 data-amp-original-style="display: none;" class="d-none">
 
@@ -271,6 +306,25 @@
     <script src="/front/js/plugins/owl.carousel.min.js"></script>
     <script src="/front/js/main.js"></script>
     <script src="/front/js/header/index.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //     $('.menu-link').click(function (e) {
+        //         e.preventDefault();
+        //         var imageUrl = $(this).data('image');
+
+        //         // Show the container only if an image is associated
+        //         if (imageUrl) {
+        //             e.preventDefault(); // Prevent default behavior only if there's an associated image
+        //             $('#feature-container').show();
+        //             $('#feature-image').attr('src', imageUrl);
+        //         } else {
+        //             // Hide the container if there's no associated image
+        //             $('#feature-container').hide();
+        //         }
+        //     });
+        // });
+    </script>
+    @yield('scripts')
 </body>
 
 </html>
