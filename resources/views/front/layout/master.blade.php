@@ -307,23 +307,24 @@
     <script src="/front/js/main.js"></script>
     <script src="/front/js/header/index.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.menu-link').click(function (e) {
-                e.preventDefault();
-                var imageUrl = $(this).data('image');
+        // $(document).ready(function () {
+        //     $('.menu-link').click(function (e) {
+        //         e.preventDefault();
+        //         var imageUrl = $(this).data('image');
 
-                // Show the container only if an image is associated
-                if (imageUrl) {
-                    e.preventDefault(); // Prevent default behavior only if there's an associated image
-                    $('#feature-container').show();
-                    $('#feature-image').attr('src', imageUrl);
-                } else {
-                    // Hide the container if there's no associated image
-                    $('#feature-container').hide();
-                }
-            });
-        });
+        //         // Show the container only if an image is associated
+        //         if (imageUrl) {
+        //             e.preventDefault(); // Prevent default behavior only if there's an associated image
+        //             $('#feature-container').show();
+        //             $('#feature-image').attr('src', imageUrl);
+        //         } else {
+        //             // Hide the container if there's no associated image
+        //             $('#feature-container').hide();
+        //         }
+        //     });
+        // });
     </script>
+    @yield('scripts')
 </body>
 
 </html>
