@@ -3,7 +3,21 @@
 @section('title', 'Home')
 
 @section('body')
-    <!-- -->
+    <!--banner -->
+    <div class="grid-container">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        @if ($categoryList && $categoryList['type'] == 'DIVISION' && $categoryList['banners'] != [])
+          <div class="carousel-inner" style="height: 280px">
+            @foreach($categoryList['banners'] as $key => $item)
+              <div class="carousel-item @if($key == 0) active @endif">
+                <img class="d-block w-100" src="{{ $item['image'] }}">
+              </div>
+            @endforeach
+          </div>
+        @endif
+      </div>
+    </div>
+    <!--end banner -->
     <!--home begin -->
     <div class="grid-container no-sidebar">
       <div class="content row">
