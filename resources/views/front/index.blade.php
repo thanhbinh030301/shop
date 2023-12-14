@@ -5,10 +5,10 @@
 @section('body')
     <!--banner -->
     <div class="grid-container">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        @if ($categoryList && $categoryList['type'] == 'DIVISION' && $categoryList['banners'] != [])
-          <div class="carousel-inner" style="height: 280px">
-            @foreach($categoryList['banners'] as $key => $item)
+      <div id="carouselExampleSlidesOnly" class="carousel slide content row" data-ride="carousel">
+        @if ($data && $data['type'] == 'DIVISION' && $data['banners'] != [])
+          <div class="carousel-inner epcl-overlay epcl-decoration-border" style="height: 280px">
+            @foreach($data['banners'] as $key => $item)
               <div class="carousel-item @if($key == 0) active @endif">
                 <img class="d-block w-100" src="{{ $item['image'] }}">
               </div>
@@ -21,13 +21,13 @@
     <!--home begin -->
     <div class="grid-container no-sidebar">
       <div class="content row">
-        @if ($categoryList && $categoryList['type'] == 'DIVISION' && $categoryList['content'] != [])
+        @if ($data && $data['type'] == 'DIVISION' && $data['content'] != [])
           <!-- start: .epcl-page-wrapper -->
           <div class="epcl-page-wrapper">
             <!-- start: .content -->
             <div class="center left-content">
               <article class="main-article">
-                  @foreach($categoryList['content'] as $item)
+                  @foreach($data['content'] as $item)
                     <header>
                       <!-- start: .post-format-image -->
                       <div class="post-format-image post-style-standard-image">
@@ -67,6 +67,10 @@
           </div>
           <!-- end: .center -->
         @endif
+      </div>
+      <!-- pagination -->
+      <div class="text-center py-5">
+        <span>Page {{ $data['page'] }} of {{ $data['page'] }}</span>
       </div>
     </div>
     <!--home end -->
