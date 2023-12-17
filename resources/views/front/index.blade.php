@@ -6,11 +6,11 @@
     <!--banner -->
     <div class="grid-container">
       <div id="carouselExampleSlidesOnly" class="carousel slide content row" data-ride="carousel">
-        @if ($data && $data['type'] == 'DIVISION' && $data['banners'] != [])
-          <div class="carousel-inner epcl-overlay epcl-decoration-border" style="height: 280px">
+        @if ($data && $data['type'] == 'DIVISION' && count($data['banners']) > 0)
+          <div class="carousel-inner epcl-overlay epcl-decoration-border" style="max-height: 280px">
             @foreach($data['banners'] as $key => $item)
-              <div class="carousel-item @if($key == 0) active @endif">
-                <img class="d-block w-100" src="{{ $item['image'] }}">
+              <div class="carousel-item h-100 @if($key == 0) active @endif">
+                <img class="d-block w-100 h-100 object-fit-contain" src="{{ $item['image'] }}">
               </div>
             @endforeach
           </div>
@@ -21,7 +21,7 @@
     <!--home begin -->
     <div class="grid-container no-sidebar">
       <div class="content row">
-        @if ($data && $data['type'] == 'DIVISION' && $data['content'] != [])
+        @if ($data && $data['type'] == 'DIVISION' && count($data['content']) > 0)
           <!-- start: .epcl-page-wrapper -->
           <div class="epcl-page-wrapper">
             <!-- start: .content -->
@@ -70,7 +70,7 @@
       </div>
       <!-- pagination -->
       <div class="text-center py-5">
-        <span>Page {{ $data['page'] }} of {{ $data['page'] }}</span>
+        <span>Page {{ $data['page'] }} of {{ $data['total'] }}</span>
       </div>
     </div>
     <!--home end -->
