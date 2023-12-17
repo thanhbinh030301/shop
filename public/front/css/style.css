@@ -98,7 +98,7 @@ h6 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 	font-family:"Quicksand", sans-serif;
 	color: #636363;
 	font-weight: 400;
@@ -4380,7 +4380,7 @@ ol {
 }
 
 .main-title {
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
     font-size: 32px;
 	word-break: break-word;
 }
@@ -4411,7 +4411,7 @@ time:not(.icon) {
 }
 
 .post-content {
-    margin-top: 24px;
+    margin: 36px 0 24px;
 }
 
 .text {
@@ -4510,4 +4510,20 @@ a.translate-effect:hover {
     right: 4px;
     bottom: 4px;
     z-index: 2; 
+}
+
+.epcl-overlay {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    background: rgba(0,0,0,0.25);
+}
+
+.object-fit-contain {
+	object-fit: fill;
 }

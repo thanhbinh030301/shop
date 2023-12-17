@@ -229,7 +229,7 @@
                             <ul>
                                 <li>xã Tân Hiệp, Hóc Môn</li>
                                 <li>Phone: +84 987654321</li>
-                                <li>Email: shopchuong@gmail.com</li>
+                                <li>Email: shop@gmail.com</li>
                             </ul>
                             <div class="footer-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
