@@ -16,9 +16,9 @@
         <div class="tag-description section image-bg">
             <div class="title">
                 <h1 class="title large fw-semibold no-margin ctag-7 text-white">{{ $itemCurrent['name'] }}</h1>
-            </div> 
+            </div>
             <span class="image-category cover" style="background-image: url('{{$itemCurrent['image']}}');"></span>
-            <div class="decoration-border"></div>             
+            <div class="decoration-border"></div>
             <div class="clear"></div>
         </div>
         @foreach ($categoryList as $item)

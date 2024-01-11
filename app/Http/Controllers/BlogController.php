@@ -15,8 +15,8 @@ class BlogController extends Controller
 
     public function index()
     {
-        $categoryList = $this->blogApi->getDetail('');
-        return view('front.index', compact('categoryList'));
+        $data = $this->blogApi->getDetail('');
+        return view('front.index', compact('data'));
     }
 
     public function detailFeature($slug)
