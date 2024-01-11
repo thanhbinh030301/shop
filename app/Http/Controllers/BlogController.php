@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\API\BlogApi;
+use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 
 class BlogController extends Controller
@@ -13,9 +14,14 @@ class BlogController extends Controller
         $this->blogApi = $blogApi;
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        $data = $this->blogApi->getDetail('');
+        $page = $request->query('page', 1);
+        $data = $this->blogApi->getDetail('', $page);
+        $isValidPage = !is_numeric($page) || $page > $data['total'] || $page < 1;
+        if ($isValidPage) {
+            abort(404);
+        }
         return view('front.index', compact('data'));
     }
 
