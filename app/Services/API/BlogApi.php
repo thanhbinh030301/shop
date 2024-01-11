@@ -37,11 +37,12 @@ class BlogApi
         return $result['data'];
     }
 
-    public function getDetail($slug)
+    public function getDetail($slug, $page = 1)
     {
         $url = $this->apiService->getUrl('/005');;
 
         $data = [
+            'page' => $page,
             'slug' => $slug,
         ];
         $headers = [

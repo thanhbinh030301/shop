@@ -23,7 +23,7 @@
       <div class="content row">
         @if ($data && $data['type'] == 'DIVISION' && count($data['content']) > 0)
           <!-- start: .epcl-page-wrapper -->
-          <div class="epcl-page-wrapper">
+          <div class="epcl-page-wrapper w-100">
             <!-- start: .content -->
             <div class="center left-content">
               <article class="main-article">
@@ -70,7 +70,13 @@
       </div>
       <!-- pagination -->
       <div class="text-center py-5">
-        <span>Page {{ $data['page'] }} of {{ $data['total'] }}</span>
+        @if ($data['page'] > 1)
+          <a class="paginate-link" href="{{ route('home', ['page' => $data['page'] - 1]) }}">Previous</a>
+        @endif
+        <span class="mx-3">Page {{ $data['page'] }} of {{ $data['total'] }}</span>
+        @if ( $data['page'] != $data['total'])
+          <a class="paginate-link" href="{{ route('home', ['page' => $data['page'] + 1]) }}">Next</a>
+        @endif
       </div>
     </div>
     <!--home end -->

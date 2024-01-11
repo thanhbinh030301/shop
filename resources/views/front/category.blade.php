@@ -24,7 +24,7 @@
         @foreach ($categoryList as $item)
             <div class="content row">
                 <!-- start: .epcl-page-wrapper -->
-                <div class="epcl-page-wrapper">
+                <div class="epcl-page-wrapper w-100">
                     <!-- start: .content -->
                     <div class="left-content grid-70 np-mobile">
                         <article

@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', [BlogController::class, 'index'])->name('home');
-Route::get('/{slug}', [BlogController::class, 'detailFeature'])->name('detail_feature');
+Route::get('/{slug?}', [BlogController::class, 'detailFeature'])->name('detail_feature');
